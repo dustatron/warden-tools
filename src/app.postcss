@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+}
+
+/* rocket theme */
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url('/fonts/SpaceGrotesk.ttf');
+	font-display: swap;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+p {
+	padding: 1em 0 1em 0;
+	font-size: 24px;
+	line-height: 32px;
+}
