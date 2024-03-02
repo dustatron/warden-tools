@@ -20,16 +20,11 @@
 			details: item.item.details
 		}));
 	}
-
-	function clear() {
-		searchTitle = '';
-		selectedMonsters = [];
-	}
 </script>
 
 <div>
 	<form on:submit|preventDefault={() => makeSelection()} class="flex pl-3">
-		<div class="w-1/4 mr-2">
+		<div class="sm:w-1/2 md:w-1/4 mr-2">
 			<label class="label">
 				<div>Search Titles, stats, and Details</div>
 				<input
@@ -40,19 +35,13 @@
 				/>
 			</label>
 		</div>
-		<div class="w-1/3 pt-7">
+		<div class="sm:w-1/2 md:w-1/3 pt-7">
 			<button type="submit" class="btn variant-filled-surface">Search</button>
-			<button type="button" class="btn variant-filled-surface" on:click={clear}>Clear</button>
 		</div>
 	</form>
 	<div class="flex flex-wrap w-full">
 		{#each selectedMonsters as monster, index}
-			<Card
-				title={monster.title}
-				stats={monster.stats}
-				details={monster.details}
-				key={`${index}-${monster.title}`}
-			/>
+			<Card title={monster.title} stats={monster.stats} details={monster.details} />
 		{/each}
 	</div>
 </div>

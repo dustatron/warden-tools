@@ -21,7 +21,10 @@
 	{#if !!$favMonsterStore.length}
 		<div class="flex flex-wrap w-full">
 			{#key $favMonsterStore}
-				<FavoritesTable />
+				{#each $favMonsterStore as monster}
+					<Card title={monster.title} stats={monster.stats} details={monster.details} />
+				{/each}
+				<!-- <FavoritesTable /> -->
 			{/key}
 		</div>
 	{/if}

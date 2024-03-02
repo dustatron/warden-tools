@@ -11,7 +11,7 @@
 <div>
 	<div>
 		<form on:submit|preventDefault={makeSelection} class="flex pl-3">
-			<div class="w-1/4 mr-2">
+			<div class="sm:w-1/2 md:w-1/4 mr-2">
 				<label class="label">
 					<div>Random Amount</div>
 					<input
