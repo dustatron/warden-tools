@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Card from '../../components/Card/Card.svelte';
-	import MonstersList, { monsterStore, type Monster, diceStore } from '$lib/index';
+	import { monsterStore, diceStore, monsterListV2 } from '$lib/index';
 	import { makeRandomSelection } from '$lib/utils';
 
 	function makeSelection() {
-		$monsterStore = makeRandomSelection($diceStore, MonstersList);
+		$monsterStore = makeRandomSelection($diceStore, monsterListV2);
 	}
 </script>
 
@@ -28,8 +28,8 @@
 			</div>
 		</form>
 		<div class="flex flex-wrap w-full">
-			{#each $monsterStore as monster, index}
-				<Card title={monster.title} stats={monster.stats} details={monster.details} />
+			{#each $monsterStore as monster}
+				<Card {monster} />
 			{/each}
 		</div>
 	</div>

@@ -1,9 +1,9 @@
-import type { Monster } from '$lib';
+import type { MonsterV2 } from '$lib';
 
-export function makeRandomSelection(amount: number, monstersList: Monster[]) {
+export function makeRandomSelection(amount: number, monstersList: MonsterV2[]) {
 	let randNumbers = new Set<number>();
 
-	const randomSelection: Monster[] = [];
+	const randomSelection: MonsterV2[] = [];
 
 	while (randNumbers.size < amount) {
 		const currentNumb = Math.floor(Math.random() * monstersList.length);

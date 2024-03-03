@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MonstersList, { diceStore, monsterStore } from '$lib';
+	import { diceStore, monsterStore, monsterListV2 } from '$lib';
 	import { makeRandomSelection } from '$lib/utils';
 	import AddButton from './AddButton.svelte';
 
@@ -12,7 +12,7 @@
 	}
 
 	function makeSelection() {
-		$monsterStore = makeRandomSelection($diceStore, MonstersList);
+		$monsterStore = makeRandomSelection($diceStore, monsterListV2);
 	}
 	if (!$monsterStore.length) {
 		makeSelection();

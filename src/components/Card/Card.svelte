@@ -1,49 +1,18 @@
 <script lang="ts">
-	export let title: string;
-	export let stats: string;
-	export let details: string[];
-	import { favMonsterStore } from '$lib/index';
+	import type { MonsterV2 } from '$lib/index';
+	import { Mountain } from 'carbon-icons-svelte';
 	import AddButton from '../Monsters/AddButton.svelte';
+	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 
-	let statList = stats.split(',');
-	let statBlock = { hp: '', armor: '', str: '', dex: '', wil: '', attack: '' };
-	for (let property of statList) {
-		if (property.includes('HP')) {
-			statBlock.hp = property.replace('HP', '').trim();
-		} else if (property.includes('STR')) {
-			statBlock.str = property.replace('STR', '').trim();
-		} else if (property.includes('Armor')) {
-			statBlock.armor = property.replace('Armor', '').trim();
-		} else if (property.includes('WIL')) {
-			statBlock.wil = property.replace('WIL', '').trim();
-		} else {
-			statBlock.attack = property;
-		}
-	}
-
-	let isFav = getIsFav();
-
-	function getIsFav() {
-		return !!$favMonsterStore.find((mon) => mon.title === title);
-	}
-
-	function addMonster() {
-		console.log('test');
-		if (isFav) {
-			$favMonsterStore = $favMonsterStore.filter((mon) => mon.title !== title);
-		} else {
-			$favMonsterStore = [{ title, stats, details }, ...$favMonsterStore];
-		}
-		isFav = getIsFav();
-	}
+	export let monster: MonsterV2;
 </script>
 
 <div class="md:w-1/2 sm:w-full p-2">
 	<div class="card p-4 w-full variant-ghost">
 		<div class="flex justify-between">
-			<header class="card-header"><h2>{title}</h2></header>
+			<header class="card-header"><h2>{monster?.title}</h2></header>
 			<div>
-				<AddButton monster={{ title, stats, details }} />
+				<AddButton {monster} />
 			</div>
 		</div>
 		<section class="p-4">
@@ -60,16 +29,16 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td>{statBlock.armor || 0}</td>
-							<td>{statBlock.hp}</td>
-							<td>{statBlock.str}</td>
-							<td>{statBlock.wil}</td>
+							<td>{monster?.stats.armor || 0}</td>
+							<td>{monster?.stats.hp}</td>
+							<td>{monster?.stats.str}</td>
+							<td>{monster?.stats.wil}</td>
 						</tr>
 					</tbody>
 					<tfoot>
 						<tr>
 							<th colspan="1">Attack</th>
-							<td colspan="4">{statBlock.attack}</td>
+							<td colspan="4">{monster?.stats.attack}</td>
 						</tr>
 					</tfoot>
 				</table>
@@ -77,12 +46,33 @@
 		</section>
 		<footer class="card-footer">
 			<ul class="grid grid-cols-1 divide-y bg-slate-400">
-				{#each details as item}
+				{#each monster?.details as item}
 					<li class="text-gray-950 p-2">
 						{@html item}
 					</li>
 				{/each}
 			</ul>
+			<div class="mt-4 variant-filled-surface">
+				<Accordion>
+					<AccordionItem>
+						<svelte:fragment slot="lead"><Mountain /></svelte:fragment>
+						<svelte:fragment slot="summary">Environments</svelte:fragment>
+						<svelte:fragment slot="content">
+							<ul>
+								{#each monster?.environments as environment}
+									<li>
+										<p class="text-lg">
+											{environment}
+										</p>
+									</li>
+								{/each}
+							</ul>
+						</svelte:fragment>
+					</AccordionItem>
+
+					<!-- ... -->
+				</Accordion>
+			</div>
 		</footer>
 	</div>
 </div>

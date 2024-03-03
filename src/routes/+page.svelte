@@ -22,7 +22,7 @@
 		<div class="flex flex-wrap w-full">
 			{#key $favMonsterStore}
 				{#each $favMonsterStore as monster}
-					<Card title={monster.title} stats={monster.stats} details={monster.details} />
+					<Card {monster} />
 				{/each}
 				<!-- <FavoritesTable /> -->
 			{/key}
