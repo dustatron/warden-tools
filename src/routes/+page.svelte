@@ -3,10 +3,10 @@
 	import Card from '../components/Card/Card.svelte';
 	import { SlideToggle } from '@skeletonlabs/skeleton';
 	import FavoritesTable from '../components/Favorites/FavoritesTable.svelte';
+	import { isTableView } from '$lib/store/isTableView';
 
-	let isShowingTable = false;
 	function toggleView() {
-		isShowingTable = !isShowingTable;
+		$isTableView = !$isTableView;
 	}
 </script>
 
@@ -15,7 +15,7 @@
 		<h1>Your Monster Collection</h1>
 		<div>
 			<SlideToggle name="slider-label" on:change={toggleView} checked
-				>{isShowingTable ? 'Show Cards' : 'Show Table'}</SlideToggle
+				>{$isTableView ? 'Show Cards' : 'Show Table'}</SlideToggle
 			>
 		</div>
 	</div>
@@ -31,15 +31,15 @@
 	{/if}
 	{#if !!$favMonsterStore.length}
 		<div class="flex flex-wrap w-full">
-			{#if isShowingTable}
-				<FavoritesTable />
-			{:else}
-				{#key $favMonsterStore}
+			{#key $favMonsterStore}
+				{#if $isTableView}
+					<FavoritesTable />
+				{:else}
 					{#each $favMonsterStore as monster}
 						<Card {monster} />
 					{/each}
-				{/key}
-			{/if}
+				{/if}
+			{/key}
 		</div>
 	{/if}
 </div>
