@@ -14,7 +14,7 @@
 	<div>
 		<h1>Your Monster Collection</h1>
 		<div>
-			<SlideToggle name="slider-label" on:change={toggleView} checked
+			<SlideToggle name="slider-label" on:change={toggleView} checke={$isTableView}
 				>{$isTableView ? 'Show Cards' : 'Show Table'}</SlideToggle
 			>
 		</div>
