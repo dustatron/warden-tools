@@ -29,7 +29,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td>{monster?.stats.armor || 0}</td>
+							<td class="w-1/6">{monster?.stats.armor || 0}</td>
 							<td>{monster?.stats.hp}</td>
 							<td>{monster?.stats.str}</td>
 							<td>{monster?.stats.wil}</td>

@@ -44,20 +44,30 @@
 			</thead>
 			<tbody>
 				{#key $monsterStore}
-					{#each $monsterStore as row, i}
+					{#each $monsterStore as { details, stats, environments, title, id }, i}
 						<tr>
 							<td class="font-bold">{i + 1}</td>
-							<td><AddButton monster={row} /></td>
+							<td><AddButton monster={{ details, stats, environments, title, id }} /></td>
 							<td class="font-bold text-xl">
 								<a
-									href={`https://cairnrpg.com/resources/monsters/${row.title.toLowerCase().replace(' ', '-')}`}
+									href={`https://cairnrpg.com/resources/monsters/${title.toLowerCase().replace(' ', '-')}`}
 								>
-									{row.title}
+									{title}
 								</a>
 							</td>
-							<td class="w-1/4">{row.stats}</td>
+							<td class="w-1/4">
+								<div>
+									Armor: {stats.armor} | HP: {stats.hp}
+								</div>
+								<div>
+									STR: {stats.str} | DEX {stats.dex} | WIL {stats.wil}
+								</div>
+								<div>
+									Attack: {stats.attack}
+								</div>
+							</td>
 							<td
-								>{#each row.details as detail}
+								>{#each details as detail}
 									<div class="border-slate-600 border-b-2 p-2">{@html detail}</div>
 								{/each}
 							</td>

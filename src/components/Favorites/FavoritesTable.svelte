@@ -22,7 +22,15 @@
 						<td class="font-bold">{i + 1}</td>
 						<td><AddButton monster={row} /></td>
 						<td class="font-bold text-xl w-36">{row.title}</td>
-						<td class="w-1/4">{row.stats}</td>
+						<div>
+							Armor: {row.stats.armor} | HP: {row.stats.hp}
+						</div>
+						<div>
+							STR: {row.stats.str} | DEX {row.stats.dex} | WIL {row.stats.wil}
+						</div>
+						<div>
+							Attack: {row.stats.attack}
+						</div>
 						<td
 							>{#each row.details as detail}
 								<div class="border-slate-600 border-b-2 p-2">{@html detail}</div>

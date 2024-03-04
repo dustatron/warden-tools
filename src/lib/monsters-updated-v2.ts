@@ -1002,7 +1002,7 @@ export const monsterListV2: MonsterV2[] = [
 	},
 	{
 		title: 'Flesh Construct',
-		stats: { hp: 9, armor: 1, str: 15, dex: 8, wil: 8, attack: 'detachment' },
+		stats: { hp: 9, armor: 1, str: 15, dex: 8, wil: 8, attack: 'fists (d10+d10), detachment' },
 		details: [
 			'Tall, bloated humanoid abominations made of stitched together flesh.',
 			'If destroyed, the construct slowly reassembles using parts from nearby corpses.'
