@@ -12,7 +12,7 @@
 
 <div>
 	<a href="/" on:click={drawerClose}>
-		<h2 class="p-4">Carin Tools</h2>
+		<h2 class="p-4">Cairn Tools</h2>
 	</a>
 	<hr />
 	<ul class="list-none p-2">
