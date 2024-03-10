@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { type MonsterV2, favMonsterStore } from '$lib';
 	import { Star, StarFilled } from 'carbon-icons-svelte';
+	import Add from 'carbon-icons-svelte/lib/Add.svelte';
+	import Subtract from 'carbon-icons-svelte/lib/Subtract.svelte';
 
 	export let monster: MonsterV2 = {
 		title: '',
@@ -29,11 +31,11 @@
 
 <button
 	on:click={toggleFav}
-	class={`btn ${isFav ? 'variant-filled-tertiary' : 'variant-outline-tertiary'} `}
+	class={`btn-icon ${isFav ? 'variant-filled-tertiary' : 'variant-outline-tertiary'} `}
 >
 	{#if isFav}
-		<StarFilled class="w-4 h-4" />
+		<Subtract size={20} />
 	{:else}
-		<Star class="w-4 h-4" />
+		<Add size={20} />
 	{/if}
 </button>

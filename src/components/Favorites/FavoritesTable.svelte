@@ -21,7 +21,13 @@
 					<tr>
 						<td class="font-bold">{i + 1}</td>
 						<td><AddButton monster={row} /></td>
-						<td class="font-bold text-xl w-36">{row.title}</td>
+						<td class="font-bold text-xl w-36">
+							<a
+								href={`https://cairnrpg.com/resources/monsters/${row.title.toLowerCase().replace(' ', '-')}`}
+							>
+								{row.title}
+							</a>
+						</td>
 						<div>
 							Armor: {row.stats.armor} | HP: {row.stats.hp}
 						</div>

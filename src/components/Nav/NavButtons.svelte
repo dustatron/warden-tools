@@ -52,6 +52,14 @@
 				on:click={drawerClose}>About</a
 			>
 		</li>
+		<li class="py-1 text-lg">
+			<a
+				href="https://cairnrpg.com/"
+				type="button"
+				class="btn variant-outline-secondary rounded-md w-full"
+				on:click={drawerClose}>Cairn RPG</a
+			>
+		</li>
 	</ul>
 </div>
 <!-- <a

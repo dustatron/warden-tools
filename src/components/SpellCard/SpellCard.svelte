@@ -19,14 +19,15 @@
 	}
 </script>
 
-<div class="sm:w-fit md:w-1/3 p-3 min-h-60">
-	<div class="card card-hover w-full min-h-60 flex align-middle flex-wrap">
-		<header class="card-header text-xl font-semibold w-full">{title}</header>
-		<section class="p-4 w-full min-h-20">{description}</section>
-		<footer class="card-footer w-full flex flex-grow-0 justify-end">
+<div class="sm:w-fit md:w-1/3 p-3 min-h-36">
+	<div class="card p-4 variant-ghost card-hover w-full min-h-60 flex flex-wrap rounded-md">
+		<header class="card-header text-xl font-semibold w-full flex justify-between flex-grow-0 h-14">
+			<div>
+				{title}
+			</div>
 			<button
 				type="button"
-				class={`btn block ${isFavorite ? 'variant-filled-primary' : 'variant-filled'} h-15 w-15 rounded-full`}
+				class={`btn-icon  ${isFavorite ? 'variant-filled-primary' : 'variant-outline-primary'} `}
 				on:click={togglefavoriteThisSpell}
 			>
 				{#if isFavorite}
@@ -35,6 +36,8 @@
 					<Add size={20} />
 				{/if}
 			</button>
-		</footer>
+		</header>
+		<section class="p-4 w-full min-h-20">{description}</section>
+		<!-- <footer class="card-footer w-full flex justify-end"></footer> -->
 	</div>
 </div>

@@ -10,7 +10,13 @@
 <div class="md:w-1/2 sm:w-full p-2">
 	<div class="card p-4 w-full variant-ghost">
 		<div class="flex justify-between">
-			<header class="card-header"><h2>{monster?.title}</h2></header>
+			<header class="card-header">
+				<a
+					href={`https://cairnrpg.com/resources/monsters/${monster.title.toLowerCase().replace(' ', '-')}`}
+				>
+					<h2>{monster?.title}</h2>
+				</a>
+			</header>
 			<div>
 				<AddButton {monster} />
 			</div>
@@ -24,6 +30,7 @@
 							<th>Armor</th>
 							<th>HP</th>
 							<th>STR</th>
+							<th>DEX</th>
 							<th>WIL</th>
 						</tr>
 					</thead>
@@ -32,6 +39,7 @@
 							<td class="w-1/6">{monster?.stats.armor || 0}</td>
 							<td>{monster?.stats.hp}</td>
 							<td>{monster?.stats.str}</td>
+							<td>{monster?.stats.dex}</td>
 							<td>{monster?.stats.wil}</td>
 						</tr>
 					</tbody>
@@ -45,7 +53,7 @@
 			</div>
 		</section>
 		<footer class="card-footer">
-			<ul class="grid grid-cols-1 divide-y bg-slate-400">
+			<ul class="grid grid-cols-1 divide-y bg-slate-400 min-h-52">
 				{#each monster?.details as item}
 					<li class="text-gray-950 p-2">
 						{@html item}
