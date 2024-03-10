@@ -8,6 +8,7 @@ import type { MonsterV2, Stats } from './monsters-updated-v2';
 import { locationIdeaList } from './locationIdeaList';
 import { type Spell, basicSpells } from './magic/basic-spells';
 import { moreSpells } from './magic/more-spells';
+import { favSpellsStore } from './store/favSpells';
 
 export type Monster = {
 	title: string;
@@ -22,7 +23,8 @@ export {
 	monsterListV2,
 	locationIdeaList,
 	basicSpells,
-	moreSpells
+	moreSpells,
+	favSpellsStore
 };
 export type { MonsterV2, Stats, Spell };
 export default MonstersList as Monster[];

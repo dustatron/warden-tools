@@ -8,7 +8,7 @@
 
 	let isBasicList = true;
 
-	let initSpells = [...moreSpells, ...basicSpells];
+	let initSpells = [...basicSpells];
 	let selectedSpells: Spell[] = initSpells;
 
 	const fuse = new Fuse<Spell>(initSpells, {
@@ -56,8 +56,8 @@
 		<div class="pt-1">Basic Spells</div>
 	</div>
 	<div class="flex flex-wrap">
-		{#each selectedSpells as { title, description }}
-			<SpellCard {title} {description} />
+		{#each selectedSpells as { title, description, number }}
+			<SpellCard {title} {description} {number} />
 		{/each}
 	</div>
 </main>

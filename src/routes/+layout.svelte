@@ -13,7 +13,7 @@
 	initializeStores();
 
 	const drawerSettings: DrawerSettings = {
-		id: 'example-3',
+		id: 'drawer',
 		// Provide your property overrides:
 		bgDrawer: 'bg-gray-900 text-white',
 		bgBackdrop: 'bg-gradient-to-tr from-blue-500/50 via-blue-900/50 to-blue-900/50',
@@ -36,6 +36,14 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
+				<div class="hidden md:block">
+					<a href="/">
+						<strong class="text-xl uppercase">Carin Tools</strong>
+					</a>
+				</div>
+			</svelte:fragment>
+			<svelte:fragment slot="trail">
+				<strong class="text-xl uppercase">{pageTitle}</strong>
 				<button class="btn btn-sm mr-4" on:click={drawerOpen}>
 					<span>
 						<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
@@ -45,15 +53,8 @@
 						</svg>
 					</span>
 				</button>
-				<strong class="text-xl uppercase">{pageTitle}</strong>
 			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<div class="hidden md:block">
-					<strong class="text-xl uppercase">Carin Tools</strong>
-				</div>
-				<!-- <NavButtons /> -->
-			</svelte:fragment>
-			<Drawer><NavButtons /></Drawer>
+			<Drawer position="right"><NavButtons /></Drawer>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
