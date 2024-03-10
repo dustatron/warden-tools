@@ -1,4 +1,4 @@
-<div class="container h-full mx-auto pt-10">
+<main class="container p-4 mx-auto pt-10">
 	<h1>About Warden Tools</h1>
 	<p>
 		Welcome to Warden Tools, this is a personal project with the goal of creating a toolkit for
@@ -15,4 +15,4 @@
 	</p>
 
 	<p>Embark on your next quest with Warden Tools—where your imagination is your only limit.</p>
-</div>
+</main>

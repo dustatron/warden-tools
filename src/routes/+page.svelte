@@ -10,7 +10,7 @@
 	}
 </script>
 
-<div class="container h-full mx-auto pt-10">
+<main class="container h-full mx-auto pt-10 px-2">
 	<div>
 		<h1>Your Monster Collection</h1>
 		<div>
@@ -42,4 +42,4 @@
 			{/key}
 		</div>
 	{/if}
-</div>
+</main>
