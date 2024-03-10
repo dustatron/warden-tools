@@ -38,7 +38,7 @@
 			<svelte:fragment slot="lead">
 				<div class="hidden md:block">
 					<a href="/">
-						<strong class="text-xl uppercase">Carin Tools</strong>
+						<strong class="text-xl uppercase">Cairn Tools</strong>
 					</a>
 				</div>
 			</svelte:fragment>
