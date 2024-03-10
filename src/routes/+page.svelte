@@ -56,9 +56,9 @@
 					<h1>Your Spell Collection</h1>
 				</div>
 				<div>
-					<div>
-						{$favMonsterStore.length} spells
-					</div>
+					{#if !$favSpellsStore.length}
+						<div>Add some <a href="/spells">spells</a></div>
+					{/if}
 					<div class="flex flex-wrap w-full">
 						{#key $favSpellsStore}
 							{#each $favSpellsStore as { title, description, number }}
