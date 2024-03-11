@@ -46,6 +46,14 @@
 		</li>
 		<li class="py-1 text-lg">
 			<a
+				href="/relics"
+				type="button"
+				class="btn variant-outline-secondary rounded-md w-full"
+				on:click={drawerClose}>Relics</a
+			>
+		</li>
+		<li class="py-1 text-lg">
+			<a
 				href="/about"
 				type="button"
 				class="btn variant-outline-secondary rounded-md w-full"

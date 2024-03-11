@@ -7,6 +7,8 @@
 	export let number: string = '';
 	let isFavorite: boolean = !!$favSpellsStore.find((spell) => spell.title === title);
 
+	const titleParts = title.split(',');
+
 	function togglefavoriteThisSpell() {
 		console.log('isfav', isFavorite);
 		if (!isFavorite) {
@@ -23,7 +25,9 @@
 	<div class="card p-4 variant-ghost card-hover w-full min-h-60 flex flex-wrap rounded-md">
 		<header class="card-header text-xl font-semibold w-full flex justify-between flex-grow-0 h-14">
 			<div>
-				{title}
+				<h2>
+					{title}
+				</h2>
 			</div>
 			<button
 				type="button"
