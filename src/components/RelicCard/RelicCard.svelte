@@ -21,7 +21,7 @@
 	}
 </script>
 
-<div class="sm:w-fit md:w-1/2 p-3 min-h-36">
+<div class="sm:w-fit md:w-fit lg:w-1/2 p-3 min-h-36">
 	<div class="card p-4 variant-ghost card-hover w-full min-h-60 flex flex-wrap rounded-md">
 		<header
 			class="card-header text-xl font-semibold w-full flex justify-between flex-grow-0 min-h-14 p-2"
