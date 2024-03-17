@@ -53,9 +53,9 @@
 			</div>
 		</section>
 		<footer class="card-footer">
-			<ul class="grid grid-cols-1 divide-y bg-slate-400 min-h-52">
+			<ul class="grid grid-cols-1 divide-y variant-glass-secondary min-h-52">
 				{#each monster?.details as item}
-					<li class="text-gray-950 p-2">
+					<li class="text-white p-2">
 						{@html item}
 					</li>
 				{/each}

@@ -10,12 +10,12 @@
 	}
 </script>
 
-<div class="w-full flex md:justify-between flex-wrap">
+<div class="w-full">
 	<form
 		on:submit|preventDefault={() => makeSelection(searchValue)}
 		class="flex p-3 lg:w-2/3 md:w-full sm:w-full"
 	>
-		<div class="mr-2 sm:w-2/3">
+		<div class="mr-2 md:w-2/3 sm:w-full">
 			<label class="label">
 				<div>{subTitle}</div>
 				<input
@@ -28,12 +28,12 @@
 		</div>
 		<div class="sm:w-1/3 pt-7 flex gap-1">
 			<button type="submit" class="btn variant-filled-surface">{buttonText}</button>
-			<button class="btn variant-filled-surface hidden md:block" on:click={clearSearch}
-				>Clear</button
-			>
+			<button class="btn variant-filled-surface" on:click={clearSearch}>Clear</button>
 		</div>
 	</form>
-	<div class="sm:w-full lg:w-1/4 badge badge-glass sm:py-3 lg:py-0 mx-3">
-		#{totalShowing} Showing
+	<div class="w-full flex justify-start">
+		<div class="w-full badge badge-glass p-2 mx-3">
+			# {totalShowing} Showing
+		</div>
 	</div>
 </div>

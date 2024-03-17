@@ -24,13 +24,13 @@
 <div class="sm:w-fit md:w-1/2 p-3 min-h-36">
 	<div class="card p-4 variant-ghost card-hover w-full min-h-60 flex flex-wrap rounded-md">
 		<header
-			class="card-header text-xl font-semibold w-full flex justify-between flex-grow-0 h-14 p-2"
+			class="card-header text-xl font-semibold w-full flex justify-between flex-grow-0 min-h-14 p-2"
 		>
 			<div class="flex justify-between w-full px-2">
 				<h2>
 					{titleParts[0]}
 				</h2>
-				<div class="flex items-center">
+				<div class="flex items-center justify-end w-1/4 text-sm">
 					{titleParts[1] ? titleParts[1] : ''}
 				</div>
 			</div>
@@ -48,10 +48,10 @@
 				</button>
 			</div>
 		</header>
-		<section class="p-4 w-full min-h-20 bg-tertiary-800-100-token text-zinc-800 rounded-md">
-			<ul>
+		<section class="w-full min-h-20 text-zinc-800 rounded-md">
+			<ul class="grid grid-cols-1 divide-y variant-glass-secondary min-h-52 p-4">
 				{#each details as detail}
-					<li class="border-b-2">
+					<li class="text-white p-1">
 						<p>{detail}</p>
 					</li>
 				{/each}
