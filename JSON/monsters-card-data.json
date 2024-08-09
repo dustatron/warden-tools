@@ -1,0 +1,1680 @@
+[
+	{
+		"title": "Acolyte",
+
+		"hp": 4,
+		"armor": 1,
+		"str": 8,
+		"dex": 11,
+		"wil": 14,
+		"attack": "ceremonial dagger (d6)",
+		"details": "Holy servants bound to a particular deity __________ Typically travel in groups of four or more __________ Carries a holy symbol (Ward once per day).",
+		"id": "b689a8dd-4c2e-4eab-8318-49a793847d1a"
+	},
+	{
+		"title": "Air Elemental",
+		"hp": 16,
+		"armor": 0,
+		"str": 11,
+		"dex": 15,
+		"wil": 8,
+		"attack": "detachment",
+		"details": "Living vortexes of whirling air and gas __________ Lighter creatures are swept away by their mere presence __________ Whirlwind: All nearby targets that fail a STR save are blown away.",
+		"id": "34ba9e3d-66d3-4284-93f8-3c03332de00a"
+	},
+	{
+		"title": "Aranea",
+		"hp": 6,
+		"armor": 0,
+		"str": 13,
+		"dex": 12,
+		"wil": 15,
+		"attack": "bite (d8)",
+		"details": "Enormous spiders with greenish-black skin and large brains __________ Can shapeshift into human form at will __________ Conduct their magical research in dark, web-filled caverns __________ Carry the Charm and Command spellbooks at all times __________ Fire damage against Aranea is enhanced.",
+		"id": "c38c2ee0-0fc7-4b53-855f-43d4f50d3644"
+	},
+	{
+		"title": "Bandit",
+
+		"hp": 4,
+		"armor": 1,
+		"str": 12,
+		"dex": 12,
+		"wil": 9,
+		"attack": "shortsword (d6) or short bow (d6)",
+		"details": "Outlaws who raid settlements, attack ships, or ambush travelers __________ Groups of four or more are a detachment __________ A detachment always travels with one leader wearing chainmail or similar (2 Armor) and a long sword (d10) or crossbow (d8) __________ Loyal: When testing Morale, save using the leader’s WIL (13) __________ If the leader dies, the others will flee.",
+
+		"id": "1b29bf9d-68d8-4502-abeb-3a04e196c906"
+	},
+	{
+		"title": "Banshee",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 6,
+		"dex": 12,
+		"wil": 15,
+		"attack": "ghostly touch (d8)",
+		"details": "Incorporeal spirits that linger long after death to haunt the living __________ Unharmed by cold, heat, or the elements __________ Iron weapon damage is Enhanced __________ Wail: Anyone in earshot must makes a WIL save or be fall unconscious.",
+
+		"id": "fcf9e044-6888-461c-99c8-73188c2cfdad"
+	},
+	{
+		"title": "Basilisk",
+
+		"hp": 10,
+		"armor": 1,
+		"str": 12,
+		"dex": 13,
+		"wil": 13,
+		"attack": "bite (d10)",
+		"details": "Long, serpentine lizards that nest deep below the earth or in brambles just underfoot __________ Fighting a Basilisk without meeting its gaze is difficult (attacks facing it are impaired) __________ Gaze: A target facing the Basilisk is slowly petrified, from the bottom up, completely frozen after three rounds __________ An antidote can be brewed from the Basilisk’s gizzards __________ The creature’s reflection is harmless.",
+		"id": "6cc144c9-b6be-41ec-b033-ee4b8e7f02ea"
+	},
+	{
+		"title": "Berserker",
+
+		"hp": 10,
+		"armor": 1,
+		"str": 14,
+		"dex": 13,
+		"wil": 15,
+		"attack": "twin axes (d8+d8)",
+		"details": "Ruthless warriors that derive their power from the skins they wear: bears, wolves, boars, etc __________ Ignore the Morale rule and are never treated as part of a detachment __________ Rage: A Berserker’s first attack has both the enhanced and blast qualities.",
+		"id": "e131a526-70de-497c-8eda-15a9f30f5f0c"
+	},
+	{
+		"title": "Black Bear",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 12,
+		"wil": 6,
+		"attack": "claws (d6+d6)",
+		"details": "Waist-high bears that subsist mostly on berries and roots __________ Drawn to campsites in search of food __________ Aggressive if cornered or feel that their young are threatened __________ Critical Damage: A large chunk of flesh is bitten off (d6 STR damage).",
+		"id": "00e3ad11-d2ca-4c7e-853f-204799448e3b"
+	},
+	{
+		"title": "Black Dragon",
+
+		"hp": 16,
+		"armor": 1,
+		"str": 13,
+		"dex": 18,
+		"wil": 14,
+		"attack": "detachment",
+		"details": "Amphibious dragons with glossy black scales and thick hides __________ Dwell in swamps or similarly dangerous and flooded environments __________ Cruel and prone to violence __________ Make use of the dark and their surprising agility to separate their victims and kill them one by one.",
+
+		"id": "0dbab2c6-7452-477e-a11a-f08be6db459a"
+	},
+	{
+		"title": "Black Pudding",
+
+		"hp": 12,
+		"armor": 0,
+		"str": 11,
+		"dex": 5,
+		"wil": 3,
+		"attack": "devouring touch (d8)",
+		"details": "Giant, brainless blobs of black jelly driven only by their insatiable hunger __________ Moves along walls and across ceilings __________ Squeeze through holes and cracks with ease __________ Immune to mundane attacks, save fire __________ Normal attacks splits the Black Pudding __________ creating two Puddings that share HP and STR __________ Critical Damage: Targets wearing non-metallic armor lose 1 point of Armor, and any STR loss to unarmored targets is permanent.",
+
+		"id": "689c433e-17a6-43eb-a02e-ece4628dbcdc"
+	},
+	{
+		"title": "Blink Dog",
+		"hp": 5,
+		"armor": 0,
+		"str": 11,
+		"dex": 14,
+		"wil": 5,
+		"attack": "bite (d6)",
+		"details": "Teleporting canines in service of a powerful master __________ Can phase out of reality at will __________ Melee attacks against them are impaired.",
+		"id": "4138755e-d40e-49fe-913b-842bec7696ba"
+	},
+	{
+		"title": "Blood Elk",
+		"hp": 4,
+		"armor": 0,
+		"str": 12,
+		"dex": 13,
+		"wil": 5,
+		"attack": "horns (d8)",
+		"details": "Born from violence resulting from a greedy or selfish act __________ Kills its victims for sustenance, but gains no succor __________ It is always hungry __________ Critical Damage: gores its victims by ripping out their entrails.",
+
+		"id": "8ff986c5-902e-4cc8-b8d6-471dc9a41cf5"
+	},
+	{
+		"title": "Blue Dragon",
+
+		"hp": 14,
+		"armor": 3,
+		"str": 14,
+		"dex": 16,
+		"wil": 15,
+		"attack": "detachment",
+		"details": "Enormous, centipede-like reptilian creatures that dwells in deserts and rocky drylands __________ Proud and vain, they often keep victims as slaves __________ The more prestigious the better __________ Thunderclap: Deals 4 STR damage against a single target __________ Targets wearing metal armor take double damage.",
+
+		"id": "30e05ec4-c6ac-4deb-ab29-35171cfbfc90"
+	},
+	{
+		"title": "Boar",
+		"hp": 3,
+		"armor": 0,
+		"str": 12,
+		"dex": 9,
+		"wil": 6,
+		"attack": "tusks (d6)",
+		"details": "Omnivorous wild boars that dwell primarily in forests __________ Not naturally aggressive, but dangerous if disturbed __________ Critical Damage: Gores its victims, who bleed out very quickly.",
+
+		"id": "5f0714c3-7907-4b66-8144-d3af9d7165f8"
+	},
+	{
+		"title": "Boggart",
+		"hp": 3,
+		"armor": 0,
+		"str": 4,
+		"dex": 17,
+		"wil": 13,
+		"attack": "",
+		"details": "A wild, hairy trickster that prizes shiny trinkets above coin __________ Boggarts have true names that describe their true nature __________ Knowing these names gives a person control over them __________ Magic: The Boggart can bring objects to life, sow confusion, create magical disguises, use telekinesis, and teleport.",
+
+		"id": "d40870a0-efe5-4228-9aa1-bdd7ecf0ab6a"
+	},
+	{
+		"title": "Bone Construct",
+
+		"hp": 8,
+		"armor": 3,
+		"str": 15,
+		"dex": 5,
+		"wil": 3,
+		"attack": "sharpened arms (d8+d8), 'detachment'",
+		"details": "Gigantic, four-armed constructs made of bone and sorcery __________ Mindless guardians that stand ready to attack any creature other than their creator.",
+
+		"id": "6bb701f3-500f-4bd6-8e9a-0cd37ce94507"
+	},
+	{
+		"title": "Bronze Construct",
+
+		"hp": 3,
+		"armor": 3,
+		"str": 18,
+		"dex": 6,
+		"wil": 0,
+		"attack": "fists (d10+d10), 'detachment'",
+		"details": "Towering humanoid constructs made of pure bronze __________ Resemble old men with long beards and hair, and emanate a strong heat __________ Immune to fire and heat __________ If punctured, spurts a burning hot liquid dealing d6 STR damage to anyone nearby.",
+		"id": "ddf94029-65f5-4a85-b7d1-ed60af2c5dcb"
+	},
+	{
+		"title": "Bugbear",
+		"hp": 8,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 11,
+		"attack": "club (d8)",
+		"details": "Large, goblin-like creatures covered in fur __________ Prefers stealth and trickery to gain an advantage __________ Often command parties of like creatures (typically goblins).",
+		"id": "4941ebf1-c2b6-4a47-9d88-9e7f9fcc930b"
+	},
+	{
+		"title": "Burrowing Horror",
+		"hp": 6,
+		"armor": 1,
+		"str": 16,
+		"dex": 11,
+		"wil": 4,
+		"attack": "blast)",
+		"details": "Huge insectoids with multiple legs and shiny black eyes __________ Subsists from dirt, roots, and flesh.",
+
+		"id": "2737dccc-2b4b-4e7e-bbc0-582a23186f9a"
+	},
+	{
+		"title": "Camel",
+
+		"hp": 3,
+		"armor": 0,
+		"str": 14,
+		"dex": 13,
+		"wil": 4,
+		"attack": "bite or kick (d6)",
+		"details": "Beasts of burden native to dry, arid lands __________ Can survive without water for weeks at a time __________ Moves through sand and broken ground without difficulty.",
+		"id": "54365099-2ba7-4842-8e39-ccec4796dcbb"
+	},
+	{
+		"title": "Catoblepas",
+		"hp": 7,
+		"armor": 1,
+		"str": 16,
+		"dex": 9,
+		"wil": 13,
+		"attack": "tail (d8)",
+		"details": "A chimeric monstrosity bearing traits of buffalo, lizard, and boar __________ Its enormous head is always pointing towards the ground __________ Paralyze: A single target is turned to stone __________ Moonlight reverses the effect.",
+
+		"id": "f264536b-d73b-4ad4-ae35-079f3c73bb94"
+	},
+	{
+		"title": "Cave Locust",
+		"hp": 2,
+		"armor": 0,
+		"str": 6,
+		"dex": 12,
+		"wil": 3,
+		"attack": "bite (d6)",
+		"details": "Giant plant-eating crickets that dwell in caves __________ Immune to most types of poison __________ Their natural coloration allows them to blend in with the stone __________ They emit loud shrieks when threatened.",
+
+		"id": "21829757-67a3-4c25-a148-062d5a360f26"
+	},
+	{
+		"title": "Centaur",
+
+		"hp": 6,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"attack": "spear (d8) or short bow (d6)",
+		"details": "Creatures with the lower body and legs of a horse, but a humanoid upper body __________ Rarely found alone, preferring the company of their own.",
+
+		"id": "6aca2851-3633-4d11-aed3-2290a9d2227f"
+	},
+	{
+		"title": "Chimera",
+
+		"hp": 10,
+		"armor": 0,
+		"str": 14,
+		"dex": 11,
+		"wil": 13,
+		"attack": "bite (d10)",
+		"details": "A flying, sorcerous hybrid of lion, goat, and dragon (pick one) __________ Dragon’s Breath: The dragon’s head spits acid, lightning, or fire depending on its type __________ d8 STR damage.",
+
+		"id": "ec112471-f6fd-4edb-bf42-73cda747e475"
+	},
+	{
+		"title": "Cloud Giant",
+
+		"hp": 12,
+		"armor": 1,
+		"str": 16,
+		"dex": 12,
+		"wil": 14,
+		"attack": "detachment",
+		"details": "Towering, white-skinned giants that live in castles high in the mountains __________ Missile attacks against them are impaired due to the powerful winds surrounding them.",
+
+		"id": "34557df5-5033-4b65-9e9e-aa6a2a0e0dfb"
+	},
+	{
+		"title": "Cobblehounds",
+		"hp": 12,
+		"armor": 2,
+		"str": 14,
+		"dex": 1,
+		"wil": 8,
+		"attack": "bite (d10)",
+		"details": "Immobile constructs typically used as guardians to great tombs or artifacts __________ Unaffected by mundane persuasion techniques, but love a good bone.",
+
+		"id": "2e813af4-0cde-4343-bb12-a4e012ea34b4"
+	},
+	{
+		"title": "Cockatrice",
+		"hp": 5,
+		"armor": 0,
+		"str": 8,
+		"dex": 14,
+		"wil": 4,
+		"attack": "beak (d6)",
+		"details": "Small, agile creatures resembling chickens with reptilian features __________ Critical Damage: The target’s injured area is covered in stone, which spreads to the rest of their body within three rounds __________ The stone can be chipped off.",
+
+		"id": "63d64f56-18b7-4b34-9f76-036ae8d3e2e5"
+	},
+	{
+		"title": "Couatl",
+		"hp": 9,
+		"armor": 0,
+		"str": 6,
+		"dex": 12,
+		"wil": 15,
+		"attack": "bite (d6)",
+		"details": "Long, feathered serpents with colorful wings __________ Live in hot jungles, and are considered divine by some civilizations __________ Highly intelligent and magical, they are capable of speaking any language __________ Can shapechange into the form of a person or small animal.",
+
+		"id": "75ea220b-a4f8-4732-8fa0-e2f0d2581259"
+	},
+	{
+		"title": "Creeping Vines",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 10,
+		"dex": 12,
+		"wil": 2,
+		"attack": "vines (d4, blast)",
+		"details": "Appears as an inert, typical vine __________ Attacks passing creatures to use their corpses as fertilizer __________ Critical Damage: Target is pulled into the air where they asphyxiate within a few minutes.",
+
+		"id": "3346a3fe-d8f3-4a1c-a753-c1544f5399bf"
+	},
+	{
+		"title": "Crypt Guardian",
+
+		"hp": 12,
+		"armor": 0,
+		"str": 12,
+		"dex": 11,
+		"wil": 14,
+		"attack": "ethereal claws (d8+d8)",
+		"details": "An animated skeleton clothed in billowing robes __________ Its eye sockets are hypnotically red __________ Defends crypts &amp; tombs, but will not attack if left undisturbed __________ Non-magical attacks against it are impaired __________ Can teleport any target in eyesight to a random room nearby.",
+		"id": "a44182f6-f3a8-4873-a671-02f92ae65911"
+	},
+	{
+		"title": "Cyclops",
+		"hp": 9,
+		"armor": 0,
+		"str": 18,
+		"dex": 8,
+		"wil": 6,
+		"attack": "club (d10)",
+		"details": "Giant humanoids with a single large eye centered on the face __________ Dwell in caves and herd small animals.",
+
+		"id": "345579ad-4280-4a01-9d0b-ed9c97e0367a"
+	},
+	{
+		"title": "Deep One",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 16,
+		"wil": 12,
+		"attack": "trident (d8)",
+		"details": "Amphibious, fish-like humanoids that live in the deep sea __________ Highly resistant to magical effects __________ Occasionally surface to trade with coastal settlements __________ On land their movement is slowed by half __________ Can only reproduce with land-dwelling humanoids.",
+		"id": "2c53c7e0-54cc-4d92-bc71-679a95d8a2e1"
+	},
+	{
+		"title": "Devil Swine",
+
+		"hp": 9,
+		"armor": 0,
+		"str": 16,
+		"dex": 8,
+		"wil": 13,
+		"attack": "gore (d6+d6)",
+		"details": "Obese humanoids that transform into massive porcine monstrosities to feast on human flesh __________ Prefer to hunt in isolated settlements close forests and wetlands __________ Can only shapeshift at night __________ Charm: Target obey’s the swine’s every command until it is killed __________ WIL save once per round to break free.",
+
+		"id": "64664acd-1787-4390-b7ec-50bea1df6151"
+	},
+	{
+		"title": "Dire Wolf",
+		"hp": 8,
+		"armor": 0,
+		"str": 14,
+		"dex": 12,
+		"wil": 8,
+		"attack": "bite (d10)",
+		"details": "Horse-sized, semi-intelligent wolves that roam the forests and mountains __________ Highly territorial __________ Can be trained as pets if captured young.",
+
+		"id": "5e2f200d-f532-4a3b-85a6-82547ee5de69"
+	},
+	{
+		"title": "Djinn",
+
+		"hp": 15,
+		"armor": 0,
+		"str": 16,
+		"dex": 16,
+		"wil": 18,
+		"attack": "elemental fists (d10+d10), 'detachment'",
+		"details": "Magical, intelligent extraplanar beings __________ Can take any form, or none at all __________ Can conjure mundane objects, sounds, and visions from nothing __________ Whirlwind: Transforms into a building-sized vortex, destroying anything in its path (DEX save or take d12 STR damage).",
+
+		"id": "89f05733-b41d-4c4f-9330-e965f95b1b99"
+	},
+	{
+		"title": "Draugr",
+
+		"hp": 12,
+		"armor": 2,
+		"str": 15,
+		"dex": 9,
+		"wil": 13,
+		"attack": "rusty broadsword (d8)",
+		"details": "Undead horror made of withered flesh __________ Rises from those killed in battle and left to rot __________ Critical Damage: target is instantly killed, only to rise later as a Thrall.",
+
+		"id": "ca7a2d33-6709-4497-b383-f683e53eb3b7"
+	},
+	{
+		"title": "Driver Ant",
+		"hp": 3,
+		"armor": 0,
+		"str": 4,
+		"dex": 12,
+		"wil": 1,
+		"attack": "bite (d6)",
+		"details": "Giant, omnivorous black ants that build colonies deep underground __________ Consume any edible object in their path __________ Often act as a hive mind __________ Two or more Driver Ants together is a detachment.",
+		"id": "50755789-28c8-40f7-8ad8-8ae61a049af4"
+	},
+	{
+		"title": "Dryad",
+
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"attack": "knotted arms (d6)",
+		"details": "Shy, protective tree spirits that manifest as beautiful, green-skinned humanoids __________ Unable to travel far from the tree they are bound to, and perish themselves if it is destroyed __________ Befuddle: Target becomes confused, gradually moving further and further away from the host tree __________ WIL save once per round to break free.",
+		"id": "27e1913b-52d5-4938-b026-634a59f70439"
+	},
+	{
+		"title": "Dwarf",
+		"hp": 4,
+		"armor": 2,
+		"str": 14,
+		"dex": 6,
+		"wil": 13,
+		"attack": "hammer (d8)",
+		"details": "Short, humanoids with skin as tough as stone __________ Dwell in mountains and underground __________ Highly resistant to poison and disease.",
+		"id": "7fb8bf56-59a0-49ca-b3ca-b0e2157d13ad"
+	},
+	{
+		"title": "Earth Elemental",
+
+		"hp": 12,
+		"armor": 3,
+		"str": 16,
+		"dex": 6,
+		"wil": 5,
+		"attack": "dirt clods (d10)",
+		"details": "Enormous humanoid-shaped beings made of earth and stone __________ Can move through the ground as if it were water __________ Mudcannon: A wall of earth is raised and then quickly lowered beneath a target, dealing d8 STR damage.",
+		"id": "2056892e-b24c-45f1-8b3c-4e5ffdb7a197"
+	},
+	{
+		"title": "Elephant",
+		"hp": 9,
+		"armor": 0,
+		"str": 16,
+		"dex": 6,
+		"wil": 11,
+		"attack": "tusks (d10)",
+		"details": "Large, intelligent animals that dwell in deserts and plains, usually in herds __________ Their tusks are worth 1000gp to the right buyer __________ There are some who consider taking the tusks as immoral __________ Charge: Nearby targets must make a DEX save or be trampled underfoot (d12 STR damage, ignoring armor).",
+		"id": "f4fead13-23bd-45b2-9893-df5763722b1d"
+	},
+	{
+		"title": "Elf",
+
+		"hp": 4,
+		"armor": 1,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"attack": "shortsword (d6) or longbow (d8)",
+		"details": "Long-lived, slender Fae with pointed ears preferring to live in harmony with nature __________ Highly resistant to charming and mind-controlling effects __________ Can cast the following spells at will: Charm, Pacify, Telepathy.",
+		"id": "b680a71c-fed7-4f55-8fee-2e7f03702b9e"
+	},
+	{
+		"title": "Estrie",
+
+		"hp": 10,
+		"armor": 0,
+		"str": 11,
+		"dex": 15,
+		"wil": 14,
+		"attack": "draining hair (d8)",
+		"details": "Appears as a woman with long dark hair that extends all the way to her feet __________ Can transform into owls, but only at night __________ Binding their hair prevents transformation __________ Drinks the blood of small animals and sleeping travelers, who dream of feathers and the moon __________ If killed they resurrect at the next full moon __________ This can be stopped by burying the head under ground and filling the mouth with sand __________ Critical Damage: target falls unconscious for 1d6 hours.",
+		"id": "bd5377bf-990a-4c32-ae30-37d9b9168e76"
+	},
+	{
+		"title": "Ettin",
+		"hp": 10,
+		"armor": 0,
+		"str": 16,
+		"dex": 8,
+		"wil": 6,
+		"attack": "club (d10)",
+		"details": "The two-headed kin of giants __________ Prefer caves and underground hovels __________ Cannot be surprised.",
+		"id": "184f76fa-6eee-44ef-a36a-ea643cd8b806"
+	},
+	{
+		"title": "Eye of Terror",
+		"hp": 15,
+		"armor": 0,
+		"str": 9,
+		"dex": 8,
+		"wil": 16,
+		"attack": "bite (d8)",
+		"details": "Floating spheres with large mouths, enormous eyes, and several small eyes set atop long stalks __________ They are highly intelligent, intensely greedy, and completely insane __________ Can cast the following spells at will: Charm, Phobia, Telekinesis, Sleep, Shuffle, Vision __________ Magic used against them requires a WIL save or fizzle out.",
+		"id": "0ddd7db1-769c-4a1c-965e-f1364017bbfc"
+	},
+	{
+		"title": "False Dragon",
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 14,
+		"wil": 12,
+		"attack": "sting (d6)",
+		"details": "Tiny winged draconic creatures with a sting-tipped tail and reddish scales __________ Commonly found in forests and caverns __________ Can communicate telepathically with nearby creatures __________ Critical Damage: Target is deprived for d6 days, unless purged of the sting’s toxins.",
+		"id": "c4e7c836-9bd1-4a7a-813d-857f60d7f914"
+	},
+	{
+		"title": "Fire Beetle",
+		"hp": 2,
+		"armor": 1,
+		"str": 4,
+		"dex": 14,
+		"wil": 3,
+		"attack": "bite (d6)",
+		"details": "Dog-sized beetles that make their home deep underground __________ Their organs produce a brilliant slime that glows for several days, making them highly valuable to alchemists and artists alike.",
+		"id": "7cd387d0-680c-4c40-944c-2bbe0360af51"
+	},
+	{
+		"title": "Fire Elemental",
+		"hp": 16,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"attack": "detachment",
+		"details": "Living columns of pure flame capable of changing shape at will __________ Mundane attacks are ineffective, but water deals d12 STR damage upon contact __________ Critical Damage: The target and all their non-metallic belongings are burnt to a crisp.",
+		"id": "23cee08b-f377-4564-9787-267d5e1f419e"
+	},
+	{
+		"title": "Fire Giant",
+
+		"hp": 13,
+		"armor": 3,
+		"str": 17,
+		"dex": 8,
+		"wil": 5,
+		"attack": "greatsword (d10)",
+		"details": "Colossal, red-haired humanoids build their fortresses in or near volcanoes __________ They are immune to fire and heat __________ They forge heavy armor made of brass, bronze, or copper and are masters of their craft.",
+		"id": "4db3f543-9290-4f0e-9f98-7a479cec650a"
+	},
+	{
+		"title": "Flesh Construct",
+
+		"hp": 9,
+		"armor": 1,
+		"str": 15,
+		"dex": 8,
+		"wil": 8,
+		"attack": "fists (d10+d10), 'detachment'",
+		"details": "Tall, bloated humanoid abominations made of stitched together flesh __________ If destroyed, the construct slowly reassembles using parts from nearby corpses.",
+		"id": "f5f0d20f-de50-429c-b23f-89efb15e002e"
+	},
+	{
+		"title": "Foxwoman",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 12,
+		"dex": 14,
+		"wil": 15,
+		"attack": "claws or hands (d8+d8)",
+		"details": "Can take the form of a fox, or a woman with a single, hidden fox leg __________ Immune to attacks from metal weapons __________ Critical damage: Victim is choked unconscious.",
+		"id": "20db3805-56da-4d07-acae-33e54d6c8a7f"
+	},
+	{
+		"title": "Frost Elf",
+
+		"hp": 14,
+		"armor": 1,
+		"str": 8,
+		"dex": 13,
+		"wil": 14,
+		"attack": "icicle dagger (d6)",
+		"details": "Beautiful, amoral, and long-lived __________ Resistant to most forms of magic __________ Can cast the following spells at will: Sleep, Teleport, Detect Magic",
+		"id": "a48da570-5124-4720-9bf8-d22eb037dd81"
+	},
+	{
+		"title": "Frost Giant",
+
+		"hp": 14,
+		"armor": 2,
+		"str": 18,
+		"dex": 9,
+		"wil": 12,
+		"attack": "great axe (d12) or longbow (d8)",
+		"details": "Colossal, pale-haired humanoids with blueish skin and pale hair __________ Unharmed by cold and ice __________ Excellent trackers, they are often accompanied by dire wolves.",
+		"id": "58b03625-3bb3-401e-a816-44939c35cdb6"
+	},
+	{
+		"title": "Gargoyle",
+
+		"hp": 8,
+		"armor": 3,
+		"str": 14,
+		"dex": 4,
+		"wil": 12,
+		"attack": "claws (d8+d8)",
+		"details": "Magical, slow-moving statues of monstrous winged creatures, typically employed as guards or watchdogs __________ Prowls at nights but fears the day, where the sun’s light freezes them in place __________ Immune to charms and magical sleep.",
+		"id": "e2281fba-950e-449b-aace-61f32a1cdfb1"
+	},
+	{
+		"title": "Gastropod Warrior",
+
+		"hp": 4,
+		"armor": 2,
+		"str": 14,
+		"dex": 6,
+		"wil": 3,
+		"attack": "tentacles (d8+d8)",
+		"details": "Giant armored snails with heavy, club-like tentacles __________ Some have colorful shells that reflects magic back towards their origin.",
+		"id": "34c8faec-ad64-4ba7-b79f-a74589c083b8"
+	},
+	{
+		"title": "Gelatinous Ooze",
+
+		"hp": 8,
+		"armor": 1,
+		"str": 15,
+		"dex": 6,
+		"wil": 3,
+		"attack": "devouring touch (d8)",
+		"details": "Large shapeless masses of transparent jelly __________ Mindlessly hunts for food in dungeons and underground caverns __________ Critical Damage: The target is engulfed, losing d6 STR damage per round until they are consumed.",
+		"id": "f48de5e5-44da-4870-887a-576b6ed5a49b"
+	},
+	{
+		"title": "Ghost",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 14,
+		"dex": 12,
+		"wil": 15,
+		"attack": "life drain (d6)",
+		"details": "Incorporeal spirits of the restless dead, vulnerable only to magic and specific anointed rites __________ Critical Damage: Target must save WIL or is possessed, acting only on behalf of the ghost’s whims.",
+		"id": "856b5433-0933-426a-b6a7-7266d0fcde6c"
+	},
+	{
+		"title": "Ghoul",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 8,
+		"wil": 3,
+		"attack": "elongated claws (d6+d6)",
+		"details": "Grey-skinned man-things wearing shredded clothes that crave only the flesh of the living __________ Critical Damage: Target is deprived from their necrotic wound, dying in d4 days unless treated by a priest or skilled healer __________ If the body is not burned it later rises as a Ghoul as well.",
+		"id": "4b8f8334-b26a-444c-9dce-454704a51fcd"
+	},
+	{
+		"title": "Giant Aquatic Spider",
+		"hp": 4,
+		"armor": 0,
+		"str": 13,
+		"dex": 8,
+		"wil": 4,
+		"attack": "bite (d8)",
+		"details": "Enormous spiders that dwell in large bodies of fresh water, building air-filled nests in the aquatic vegetation __________ Lurk just below the water’s surface, waiting to surprise their victims __________ Critical Damage: Paralyzes their target, dealing an additional d4 DEX damage.",
+		"id": "37dcb50b-50c9-4be7-b4eb-7db904f6f690"
+	},
+	{
+		"title": "Giant Centipede",
+		"hp": 5,
+		"armor": 0,
+		"str": 6,
+		"dex": 13,
+		"wil": 3,
+		"attack": "sting (d6)",
+		"details": "Dog-sized centipedes that live in damp, underground places __________ They prefer to avoid combat if possible __________ Critical Damage: Venom renders the target deprived __________ Save STR once per day to recover.",
+		"id": "372b1283-9d83-4d9e-8890-c3c9e0347eb0"
+	},
+	{
+		"title": "Giant Crab",
+
+		"hp": 6,
+		"armor": 3,
+		"str": 14,
+		"dex": 3,
+		"wil": 8,
+		"attack": "pincers (d8+d8)",
+		"details": "Huge crustaceans that live in coastal areas __________ Their pincers ignore non-metallic armor completely.",
+		"id": "1d0ced03-057b-426e-a60c-b3ff59808077"
+	},
+	{
+		"title": "Giant Crocodile",
+		"hp": 15,
+		"armor": 3,
+		"str": 16,
+		"dex": 6,
+		"wil": 5,
+		"attack": "detachment",
+		"details": "Rare, gigantic reptiles from ancient times __________ Natural hunters, they are attracted to the scent of blood in the water, even at great distances.",
+		"id": "acf755e1-1fe3-4f04-8216-6302b917fa1f"
+	},
+	{
+		"title": "Giant Mantis",
+
+		"hp": 10,
+		"armor": 1,
+		"str": 12,
+		"dex": 14,
+		"wil": 12,
+		"attack": "forelegs (d8+d8)",
+		"details": "Cow-sized insects with sharp forelimbs and slicing mandibles __________ Dwell in tropical forests and jungles __________ Relies on its dark green coloration to camouflage in foliage and attack unsuspecting prey __________ Critical Damage: Target loses a body part __________ Roll 1d6 __________ 1: Head, 2,-4,: Leg, 5,-6,: Arm.",
+		"id": "28ede998-422f-4320-8033-b4032e9f824c"
+	},
+	{
+		"title": "Giant Phase Spider",
+		"hp": 6,
+		"armor": 0,
+		"str": 13,
+		"dex": 14,
+		"wil": 12,
+		"attack": "detachment",
+		"details": "8’ long, black spiders that have the ability to become intangible __________ Dwell in web-filled lairs and sometimes prey on humans __________ Can freely shift in and out of its current plane, phasing back to attack __________ It cannot phase out again until its next turn __________ Critical Damage: Without specialist healing the target begins to slowly phase out of reality over 1d6 days.",
+		"id": "313cb744-5485-4c76-8048-7cd39a55dc8a"
+	},
+	{
+		"title": "Giant Scorpion",
+
+		"hp": 8,
+		"armor": 1,
+		"str": 11,
+		"dex": 12,
+		"wil": 4,
+		"attack": "claws (d10+d10)",
+		"details": "Horse-sized arachnides commonly found in dry terrain or caverns __________ Critical Damage: The stinger’s poison liquifies the target’s insides for an additional d8 STR damage __________ The STR loss is permanent.",
+		"id": "bfb74a91-0e0d-4f88-975f-91a43cf2f717"
+	},
+	{
+		"title": "Giant Draco",
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 14,
+		"wil": 5,
+		"attack": "bite (d10)",
+		"details": "Tall, carnivorous lizards that glide in the air on flaps of skin __________ Wait atop tall natural formations to swing down and surprise their unsuspecting targets.",
+		"id": "cb91cdbb-42c8-4791-9aba-d8cf2e3d1fca"
+	},
+	{
+		"title": "Gnoll",
+		"hp": 6,
+		"armor": 1,
+		"str": 12,
+		"dex": 14,
+		"wil": 8,
+		"attack": "spear (d8)",
+		"details": "Ferocious humanoid hyenas spawned from arcame experiments long ago __________ Deadly warriors, they attack as a pack (as detachment) or on their own.",
+		"id": "a75aee2d-5b09-4572-be46-8cf7fc9c2784"
+	},
+	{
+		"title": "Gnome",
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"attack": "bulky)",
+		"details": "Short humanoids with long noses and ears __________ Live underground or deep in forests __________ Intelligent tinkers, love messing with any kind of mechanism __________ Can easily be convinced by the promise of something novel or uncommon __________ Can understand and communicate with small mammals like moles or squirrels.",
+		"id": "3fe4fe79-d72c-4771-b98f-95df7f9a70a0"
+	},
+	{
+		"title": "Goblin",
+
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 8,
+		"attack": "dagger (d6) or sling (d6)",
+		"details": "Small, grotesque humanoids with skin in earthly tones of green, brown, and grey __________ Avoid combat, only attacking when advantageous, using hit-and-run tactics __________ Sometimes are found using dire wolves as mounts.",
+		"id": "4129dc48-bdee-44ab-8f53-4f9d79c888fb"
+	},
+	{
+		"title": "Golem",
+		"hp": 12,
+		"armor": 3,
+		"str": 18,
+		"dex": 6,
+		"wil": 0,
+		"attack": "detachment",
+		"details": "Immune to mental attacks __________ Damage from fire is enhanced __________ Scratching off the first letter on its forehead or performing in reverse the ritual that created it reduces the Golem to mud.",
+		"id": "a8603db0-f806-42cb-abbe-861b7df1ffe8"
+	},
+	{
+		"title": "Gorilla",
+
+		"hp": 3,
+		"armor": 0,
+		"str": 14,
+		"dex": 14,
+		"wil": 9,
+		"attack": "fists (d8+d8)",
+		"details": "Large, muscular apes that dwell in hot jungles __________ Highly territorial __________ Critical Damage: Breaks a limb, dealing 1d4 extra STR damage.",
+		"id": "738f7bb0-4671-44e6-8c92-0ff568c60898"
+	},
+	{
+		"title": "Great White Shark",
+		"hp": 8,
+		"armor": 0,
+		"str": 14,
+		"dex": 14,
+		"wil": 6,
+		"attack": "bite (d12)",
+		"details": "Enormous grey sharks that dwell in warm water, sometimes attacking smaller boats __________ Can detect the smell of blood from many miles away.",
+		"id": "16c9050d-03d8-4925-9351-a078d9eb85e5"
+	},
+	{
+		"title": "Green Dragon",
+
+		"hp": 12,
+		"armor": 2,
+		"str": 14,
+		"dex": 15,
+		"wil": 18,
+		"attack": "detachment",
+		"details": "Forest-dwelling snake topped with tall green scales __________ Collect great hoards of treasure __________ Uses intelligence and cunning to manipulate the weak into its service __________ Chlorine Gas: Anyone nearby must make a DEX save to escape its reach, or lose 1d4 STR and becomes deprived.",
+		"id": "11c01197-e7ed-446d-a9fc-b8fe606a0b11"
+	},
+	{
+		"title": "Green Slime",
+
+		"hp": 3,
+		"armor": 0,
+		"str": 18,
+		"dex": 6,
+		"wil": 3,
+		"attack": "acidic touch (d10)",
+		"details": "Large blobs of green slime that stick to walls and ceiling __________ Immune to all damage except fire __________ Drop Attack: As trap __________ Deals 1d6 STR damage per round, corroding metal, wood, and flesh __________ Flesh consumed in this way becomes more Green Slime.",
+		"id": "23ef4233-e0a7-4b87-b7cd-69b977ccdcba"
+	},
+	{
+		"title": "Griffon",
+		"hp": 7,
+		"armor": 0,
+		"str": 14,
+		"dex": 15,
+		"wil": 12,
+		"attack": "detachment",
+		"details": "Ravenous hybrids, with the head and wings of an eagle and the lower body of a lion __________ Can be used as a mount if taken young and properly trained __________ Flies and attacks at astonishing speeds, diving in scoop up its prey __________ Critical Damage: Tears flesh and bone from its victim with its razor-sharp beak.",
+		"id": "a0e2e882-f6aa-4e65-9af0-74a477e29e1d"
+	},
+	{
+		"title": "Grizzly Bear",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 15,
+		"dex": 13,
+		"wil": 5,
+		"attack": "claws (d8+d8)",
+		"details": "Reddish-brown bears commonly found in mountains, woodlands, and prairies __________ Prefer to eat fish and meat, and will attack the rare unfortunate who crosses their path __________ Critical Damage: Their bite does 1d6 additional STR damage __________ The target bleeds out very quickly.",
+		"id": "fd0a9033-e4f0-48bd-b142-53d08861f04e"
+	},
+	{
+		"title": "Halfling",
+
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 14,
+		"wil": 14,
+		"attack": "shortsword (d6)",
+		"details": "Small humanoids with hairy feet live in small settlements __________ Highly resistant to mental attacks.",
+		"id": "c663ff40-6a7f-49c2-9208-ad0202be4d30"
+	},
+	{
+		"title": "Harpy",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 7,
+		"dex": 12,
+		"wil": 14,
+		"attack": "claws (d6+d6)",
+		"details": "Hideous monstrosities with the body of a giant eagle and a humanoid head __________ Its movements and flight are clumsy due to its unproportional size __________ Rely on charmed victims to do anything of note __________ Song: Anyone nearby must save WIL or be charmed by its voice, following the harpy and defending it from any threat.",
+		"id": "c0849989-5307-40da-b27d-8c368a31d877"
+	},
+	{
+		"title": "Hellhound",
+		"hp": 8,
+		"armor": 0,
+		"str": 12,
+		"dex": 15,
+		"wil": 9,
+		"attack": "blast)",
+		"details": "Monstrous, intelligent dogs that dwell near volcanoes __________ Immune to fire and heat damage __________ Hot enough to melt iron by simply biting it.",
+		"id": "59566fd6-68a0-441c-9145-f59d0b7f9824"
+	},
+	{
+		"title": "Hobgoblin",
+		"hp": 6,
+		"armor": 2,
+		"str": 14,
+		"dex": 8,
+		"wil": 11,
+		"attack": "mace (d8)",
+		"details": "Large and burly relatives of goblins __________ Dwell in underground fortresses until called for war __________ Automatically succeed in Morale Saves if a commander is present __________ Trained to fight together __________ Damage dealt is enhanced if an ally is also engaged with the same enemy.",
+		"id": "8c1b68fb-953e-4981-a9eb-dcedef31631c"
+	},
+	{
+		"title": "Hooded Men",
+
+		"hp": 12,
+		"armor": 0,
+		"str": 9,
+		"dex": 12,
+		"wil": 14,
+		"attack": "leystaff (d8)",
+		"details": "The Watchers of the Wood; a cult that derive their power from leylines, rune stones, and the like __________ Critical Dmage: Leech a part of the victim’s soul (1d4 WIL damage) __________ Carries two of the following Spellbooks: Charm, Hypnotize, Push/Pull, Shield.",
+		"id": "50939ce4-023f-443e-9a28-902477c01a92"
+	},
+	{
+		"title": "Hunting Dog",
+		"hp": 3,
+		"armor": 0,
+		"str": 4,
+		"dex": 12,
+		"wil": 8,
+		"attack": "bite (d6)",
+		"details": "Domestic canines shaped into ferocious hunters, attacking only at their owner’s command __________ Track by scent, relentlessly following their target.",
+		"id": "b0d39694-512a-4b97-bca9-cdafd9cc2231"
+	},
+	{
+		"title": "Hydra",
+		"hp": 12,
+		"armor": 2,
+		"str": 13,
+		"dex": 7,
+		"wil": 12,
+		"attack": "detachment",
+		"details": "Large reptilians with nine serpentine heads __________ Very difficult to throw off once their quarry is detected __________ On taking Critical Damage, the hydra loses one head __________ It then continues fighting until no heads remains.",
+		"id": "c87b7487-be5d-4e79-8a00-78d061f3be99"
+	},
+	{
+		"title": "Ifrit",
+
+		"hp": 10,
+		"armor": 0,
+		"str": 11,
+		"dex": 13,
+		"wil": 14,
+		"attack": "flaming sword (d10)",
+		"details": "Clever, djinn-like beings from the elemental plane of fire __________ Appear as giant humanoids __________ Wet weapons deal enhanced damage against them __________ Often summoned through powerful magic in service to a wizard, but will subvert their orders whenever possible __________ Pillar of Flame: Creates a column of flame as tall as a building, dealing d12 STR damage to all it touches __________ It can only do this once per day.",
+		"id": "fb5c9cf9-6b53-4d3f-8997-a43f7e5c3d1c"
+	},
+	{
+		"title": "Invisible Stalker",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 12,
+		"dex": 12,
+		"wil": 15,
+		"attack": "fists (d4+d4)",
+		"details": "Intelligent beings shaped into reality by a powerful wizard __________ Completely invisible and silent __________ Attacks deal direct STR damage (subtracting Armor).",
+		"id": "e06d66d3-3eed-4116-b1af-5e8f5d01853b"
+	},
+	{
+		"title": "Iron Construct",
+
+		"hp": 8,
+		"armor": 3,
+		"str": 15,
+		"dex": 5,
+		"wil": 8,
+		"attack": "giant sword (d12)",
+		"details": "Tall, humanoid statues forged of metal, fire, and magic __________ Wield massive swords of iron __________ Immune to mundane attacks, electricity, and cold __________ Fire damage is absorbed and heals any lost STR.",
+		"id": "f974b776-97d3-4612-84b2-75da96444ef8"
+	},
+	{
+		"title": "Killer Bees",
+		"hp": 6,
+		"armor": 0,
+		"str": 6,
+		"dex": 14,
+		"wil": 8,
+		"attack": "detachment",
+		"details": "Oversized bees that build underground hives __________ Hyper aggressive, attack anything that comes near __________ Produce special honey that heals 1d6 STR __________ 3 uses __________ When the bees cause STR damage, the stingers are lodged into the target, dealing d4 damage each round until removed.",
+		"id": "c437b2ec-e8ce-4794-93a2-ba0f2d4e81b6"
+	},
+	{
+		"title": "Kobold",
+		"hp": 3,
+		"armor": 0,
+		"str": 8,
+		"dex": 13,
+		"wil": 4,
+		"attack": "spear (d8)",
+		"details": "Hairless humanoids with canine-like features and scaly skin __________ Can see perfectly in the dark, but are harmed by direct sunlight __________ Use traps and ambush to defeat opponents __________ Often act in service of a more powerful creatures.",
+		"id": "9f4697aa-be3c-4d09-8f36-a44bd1eb803a"
+	},
+	{
+		"title": "Kraken",
+		"hp": 16,
+		"armor": 0,
+		"str": 15,
+		"dex": 13,
+		"wil": 8,
+		"attack": "blast)",
+		"details": "Titanic, eight-armed saltwater monstrosities that build enormous “castles” deep below the ocean __________ Terrorize ships and coastal cities alike in their obsessive search for building materials.",
+		"id": "6a85d40d-155f-4a8a-b03d-3bca61bcf57c"
+	},
+	{
+		"title": "Lamia",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 11,
+		"dex": 12,
+		"wil": 16,
+		"attack": "toothy bite (d8)",
+		"details": "Centaur-like creatures that prey on the life force of others, seducing their victims through heightened charm and intelligence __________ Their upper bodies are typically humanoid, the lower half any number of animal hybrids __________ Inherently magical __________ Can create illusions, charm, and disguise themselves at will __________ Critical Damage: The target takes d6 WIL damage as their spirit is slowly sapped away __________ They then become enthralled to the Lamia, obeying its every command while in its presence.",
+		"id": "e2ff22e8-08f7-475f-98d4-24a1b97b7433"
+	},
+	{
+		"title": "Lich",
+
+		"hp": 14,
+		"armor": 1,
+		"str": 8,
+		"dex": 8,
+		"wil": 18,
+		"attack": "soul dagger (d8)",
+		"details": "Powerful sorcerers that paid the ultimate price for immortality: their own life __________ Now, their thirst for power knows no bounds __________ Maintains unlife by binding themselves to an earthly artifact, which is typically protected by at least d6 other undead servants __________ Carries up to six of the following spellbooks: Animate Object, Arcane Eye, Deafen, Disassemble, Elemental Wall, Frenzy, Gate, Hover, Hatred, Identify Owner, Knock, Pacify, Raise Dead, Raise Spirit, Shield, Sleep, Smoke Form, Telekinesis, Telepathy, Teleport, Vision, Wizard Mark.",
+		"id": "758af441-2670-4edb-ab68-74f31face94c"
+	},
+	{
+		"title": "Lion",
+
+		"hp": 5,
+		"armor": 0,
+		"str": 12,
+		"dex": 12,
+		"wil": 11,
+		"attack": "claws (d6+d6)",
+		"details": "Carnivorous hunters that live in the savannah or other similarly dry lands __________ Can follow the scent of blood over great distances __________ Critical Damage: Delivers a killing bite to the throat (d6 STR damage).",
+		"id": "4dfac407-fe02-403f-9212-8e60b2d744ec"
+	},
+	{
+		"title": "Manticore",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 15,
+		"dex": 14,
+		"wil": 12,
+		"attack": "claws (d6+d6) or tail spike (d6)",
+		"details": "Spiteful monstrosities that wear a humanoid face, a lion’s body, wings of a bat, and a scorpion’s tail __________ Dwell in mountainous regions, abandoned castles, and forgotten dungeons __________ Tail spikes act like darts, regrowing after a few days __________ A single spike is worth 150gp to a collector __________ Critical Damage: Target is deprived until they get a good night’s sleep __________ Until then they act boorish, selfish, and cruel (or more so, if that already is their nature).",
+		"id": "20ee5401-4ec3-4dca-9fd4-cf48c121320b"
+	},
+	{
+		"title": "Medusa",
+
+		"hp": 10,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 16,
+		"attack": "snake bite (d8)",
+		"details": "Magical creatures that resemble humanoid women, but have snakes in place of hair __________ Proud and territorial __________ Gaze: Those who look into the eyes of the Medusa are quickly turned to stone (its reflection is harmless) __________ Attacks against it are almost normally impaired __________ If severed, a Medusa’s head maintains its powers for a full day.",
+		"id": "6c441730-d75e-48ec-990a-dad6d78f7d9d"
+	},
+	{
+		"title": "Mimic",
+		"hp": 9,
+		"armor": 2,
+		"str": 13,
+		"dex": 6,
+		"wil": 12,
+		"attack": "bite (d8)",
+		"details": "Malicious shapeshifters that take on the form of inanimate objects commonly found in dungeons __________ Remain motionless (typically in the form of a chest or door), surprising anyone that comes near __________ The mimic’s saliva is extremely sticky and difficult to remove __________ Alchemists will pay up to 150gp for even the smallest vial.",
+		"id": "28549b86-f526-4e6a-a9dd-0d3842af6c0d"
+	},
+	{
+		"title": "Mind Lasher",
+		"hp": 12,
+		"armor": 0,
+		"str": 8,
+		"dex": 12,
+		"wil": 18,
+		"attack": "blast)",
+		"details": "Humanoid creatures with purple skin and an squid-like heads __________ Dwell deep underground or in spacefaring vessels __________ Feed on the brains of other humanoids, absorbing their memories and life essence __________ Highly intelligent, but evil beyond belief __________ Mind Blast: Nearby targets must save WIL or lose 1d4 WIL and become paralyzed __________ Critical Damage: A tentacle rips the victim’s brain out of their skull.",
+		"id": "4d2e6338-39d5-407e-9a04-b742715e97c9"
+	},
+	{
+		"title": "Minotaur",
+
+		"hp": 12,
+		"armor": 1,
+		"str": 16,
+		"dex": 12,
+		"wil": 8,
+		"attack": "two-handed axe (d10) or charge (d12)",
+		"details": "A large humanoid (typically male) with the head of a bull __________ Dwell in mazes or dungeons __________ Extraordinary trackers with an excellent sense of smell and navigation skills.",
+		"id": "d800041c-b02d-4f46-86ef-14e2e9b237e2"
+	},
+	{
+		"title": "Mummy",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 12,
+		"dex": 8,
+		"wil": 6,
+		"attack": "necrotic touch (d10)",
+		"details": "Undead humanoids wrapped in funerary cloth __________ Found in pyramids, ruins, temples, and tombs __________ Critical Damage: Target is infected with mummy rot, and is unable to recover STR until they are cured by a specialist healer __________ The target is also deprived.",
+		"id": "4e38c068-c51b-4123-b96d-53903e80ec23"
+	},
+	{
+		"title": "Naga",
+		"hp": 6,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"attack": "bite (d10)",
+		"details": "Humanoids with the lower body, tail, and neck snakes __________ Dwell in hot jungles and temples lost to time __________ Use cunning and hypnosis to capture other creatures to be enslaved by their cruel masters __________ Gaze: A target facing the Naga is hypnotized, falling under its will __________ Its victims cannot be compelled to violence.",
+		"id": "f46e1107-b38e-4779-bae0-2a74de371341"
+	},
+	{
+		"title": "Night Hag",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 9,
+		"dex": 11,
+		"wil": 16,
+		"attack": "talons (d8+d8)",
+		"details": "Hideous old women that dwell in dead forests, swamps, and bogs __________ Carries three of the following spellbooks: Arcane Eye, Disguise, Fog Cloud, Identify Owner, Smoke Form.",
+		"id": "5d12adcd-ea96-4cf8-91f0-8b6e23aa99ab"
+	},
+	{
+		"title": "Nightmare",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 15,
+		"dex": 12,
+		"wil": 8,
+		"attack": "flaming hooves (d8+d8)",
+		"details": "Intelligent, demonic horses with eyes like burning coals, smoldering nostrils, and flaming hooves __________ Melee attacks against the Nightmare are impaired due to the thick clouds of smoke it produces.",
+		"id": "6a7f3856-6671-4972-8113-00ab332abf33"
+	},
+	{
+		"title": "Ogre",
+		"hp": 6,
+		"armor": 1,
+		"str": 16,
+		"dex": 8,
+		"wil": 6,
+		"attack": "club (d10)",
+		"details": "Massive, gluttonous brutes of ill-spirit and low intelligence __________ Easily impressed by shiny materials, keeping sacks of gold and treasure in its lairs.",
+		"id": "08378d47-f689-4a10-b657-21a922c4ee0d"
+	},
+	{
+		"title": "Owlbear",
+
+		"hp": 9,
+		"armor": 0,
+		"str": 16,
+		"dex": 12,
+		"wil": 5,
+		"attack": "beak (d10) or claws (d8+d8)",
+		"details": "Bear-like carnivores with the face of an owl __________ Found in dense forests __________ Rumored spawns of a magical mishap __________ Critical Damage: A piece of armor is pierced and destroyed.",
+		"id": "ad0917a8-bcd3-4a40-b833-5ceb554c5727"
+	},
+	{
+		"title": "Panther",
+
+		"hp": 4,
+		"armor": 0,
+		"str": 11,
+		"dex": 14,
+		"wil": 8,
+		"attack": "claws (d6+d6)",
+		"details": "Dark-furred cats that live in forests and plains __________ Hunt animals of almost any size, pouncing on unsuspecting targets from on high __________ Critical Damage: Delivers a killing bite to the target’s throat, dealing an extra d4 STR damage.",
+		"id": "1d1b6bdb-88b8-40c6-9f8a-e7915454f624"
+	},
+	{
+		"title": "Phoenix",
+
+		"hp": 4,
+		"armor": 0,
+		"str": 15,
+		"dex": 13,
+		"wil": 12,
+		"attack": "talons (d10+d10)",
+		"details": "Intelligent, hawk-like spirits of pure flame, found in isolated deserts and high mountains __________ If killed, the phoenix explodes in a burst of flames __________ Is reborn 1d3 days later from the ashes __________ Its feathers are highly-sought after for their healing properties.",
+		"id": "8774c078-efb3-4cee-a4df-28ae429256f2"
+	},
+	{
+		"title": "Pixie",
+		"hp": 3,
+		"armor": 0,
+		"str": 3,
+		"dex": 15,
+		"wil": 13,
+		"attack": "",
+		"details": "Tiny humanoids with insectoid wings __________ Naturally invisible __________ Can cast Sleep and Masquerade at will.",
+		"id": "d0077331-9004-44fc-8c37-3b20f6991774"
+	},
+	{
+		"title": "Pseudodragon",
+		"hp": 4,
+		"armor": 0,
+		"str": 6,
+		"dex": 14,
+		"wil": 13,
+		"attack": "bite (d6)",
+		"details": "Winged, cat-sized reptiles capable of flight, speech, and high intelligence __________ Commonly found acting as familiars and spies __________ Love treats, rubs, and good stories.",
+		"id": "2b9d3d82-e3c0-4017-af15-b8e43cc5dba6"
+	},
+	{
+		"title": "Purple Worm",
+		"hp": 18,
+		"armor": 1,
+		"str": 18,
+		"dex": 8,
+		"wil": 6,
+		"attack": "detachment",
+		"details": "Gargantuan worms that lair in enormous burrows deep underground, only coming to the surface to eat __________ Found in high deserts and hot tundra __________ Critical Damage: The target is devoured, taking d8 STR damage from the acid in the worm’s stomach.",
+		"id": "f24f1293-0624-45c8-afb1-45f5896fce72"
+	},
+	{
+		"title": "Red Cap",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 6,
+		"dex": 12,
+		"wil": 8,
+		"attack": "dual sickles (d6+d6)",
+		"details": "Borne from blood left to rot in the land of Fairy __________ Their hats are a deep red from the blood they bathe in __________ Ignore those with little to live for, as there is no pleasure in their murder __________ Critical Damage: Target is eviscerated, the spray of their blood restoring STR loss suffered by the Red Cap.",
+		"id": "60337d5c-ae5d-43f3-b754-e838da092028"
+	},
+	{
+		"title": "Red Dragon",
+
+		"hp": 18,
+		"armor": 3,
+		"str": 18,
+		"dex": 12,
+		"wil": 16,
+		"attack": "detachment",
+		"details": "Flaming titans of smoke and fire, boasting a greater wingspan than any of their brethren __________ Lair close to volcanos and lava flows __________ Immune to fire damage of any kind __________ Ice and water evaporate on contact __________ Fire Breath: Deals 8 STR damage to anyone nearby, destroying all mundane armor it touches in the process.",
+		"id": "aade45c5-e921-4b81-b661-850cfb38b482"
+	},
+	{
+		"title": "Reptilian",
+
+		"hp": 5,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 5,
+		"attack": "bone spear (d8)",
+		"details": "Amphibian humanoids that live in large tribes near swamps and jungles __________ Craft their armor and weapons from the bones of their prey __________ They will eat anything, including humanoids.",
+		"id": "10a173f1-9e14-4c8b-a65f-668456852f98"
+	},
+	{
+		"title": "Roc",
+
+		"hp": 15,
+		"armor": 0,
+		"str": 16,
+		"dex": 14,
+		"wil": 12,
+		"attack": "detachment",
+		"details": "Gargantuan birds of prey that roost in high plateau and distant mountain peaks __________ Powerful hunters, they will defend a clutch of eggs to the death __________ Grab: Their powerful talons can scoop up entire groups of people (targets must all make a DEX save to escape) __________ Victims are carried back to the nest to be eaten alive __________ Critical Damage: Target is pierced through their middle, dying instantly.",
+		"id": "78f8ba45-d0ce-4253-b027-5f51e21f9e09"
+	},
+	{
+		"title": "Root Goblin",
+		"hp": 4,
+		"armor": 0,
+		"str": 8,
+		"dex": 14,
+		"wil": 8,
+		"attack": "spear (d6)",
+		"details": "Avoid combat unless they have the advantage (such as greater numbers) __________ Guard their stolen goods to the death __________ Root Golbins prize Spellbooks and are always willing to trade.",
+		"id": "eaa28b99-b130-4d86-8245-e9d61278a370"
+	},
+	{
+		"title": "Root Witch",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 9,
+		"dex": 16,
+		"wil": 14,
+		"attack": "tuber-fingers (d6)",
+		"details": "Excellent tunneler that hides underground near water __________ Wiggles tiny fronds into the air as lures __________ Above-ground, appears vaguely humanoid with the face of a rotted tree stump __________ Will exchange rare minerals for a “fresh corpse” of any kind.",
+		"id": "b1b0c0d5-d8e2-49e3-af4c-d026bfe9ae47"
+	},
+	{
+		"title": "Rust Monster",
+		"hp": 5,
+		"armor": 0,
+		"str": 16,
+		"dex": 13,
+		"wil": 5,
+		"attack": "bite (d6)",
+		"details": "Armadillo-like creatures with club-like tails and long antennae __________ Feed on iron and rusted metal __________ Any mundane metals its antennae touch instantly become rust __________ Can smell metal from a long distance away __________ Critical Damage: Metal armor rusts into useless weight.",
+		"id": "e7b315b1-00d2-4d08-b0a9-fa30f4571b6b"
+	},
+	{
+		"title": "Sabre-Toothed Cat",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 15,
+		"dex": 14,
+		"wil": 3,
+		"attack": "claws (d8+d8)",
+		"details": "Huge, primeval cats with enormous fangs __________ Extremely rare, generally found in regions untouched by civilization __________ Critical Damage: Punctures the flesh of its victim (d6 STR damage), resulting in extreme blood loss.",
+		"id": "31a716f8-980c-47d0-a18c-fd48a94f64dd"
+	},
+	{
+		"title": "Satyr",
+		"hp": 6,
+		"armor": 0,
+		"str": 11,
+		"dex": 14,
+		"wil": 16,
+		"attack": "horns (d6)",
+		"details": "Mythical humanoids with legs and horns of a goat that love to dance and drink __________ Found in deep forests __________ Immune to mind-altering magic __________ Pipes: Anyone in earshot of their music must save WIL or fall asleep.",
+		"id": "de515504-5326-4810-8bfc-45ca2d589ab8"
+	},
+	{
+		"title": "Sea Hag",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 11,
+		"dex": 15,
+		"wil": 14,
+		"attack": "long claws (d6+d6)",
+		"details": "Ghostly, green-skinned hags that dwell in seaweed forests and warm shallow waters __________ Immune to magic from spellbooks __________ Hideous Gaze: A target is overcome with fear (HP drops to 0) __________ WIL save each round to break the spell.",
+		"id": "0c080e38-f2b7-4fe4-b92c-8c3fae2dcc50"
+	},
+	{
+		"title": "Shadow",
+
+		"hp": 14,
+		"armor": 0,
+		"str": 1,
+		"dex": 18,
+		"wil": 14,
+		"attack": "ignores armor)",
+		"details": "Incorporeal monsters that look like animated shadows __________ Unharmed by mundane attacks, sleep or mind control __________ Critical Damage: Target loses d4 STR __________ If reduced to 0 STR they become a shadow as well.",
+		"id": "30e799cc-c0f7-4ec6-aace-f9dca1f30d7a"
+	},
+	{
+		"title": "Shambling Mound",
+		"hp": 9,
+		"armor": 0,
+		"str": 15,
+		"dex": 6,
+		"wil": 8,
+		"attack": "detachment",
+		"details": "Tall humanoids made of slimy vegetation.  Dwell in dark swamps and damp undergrounds __________ Critical Damage: Target is swallowed whole and dragged away.",
+		"id": "c1b9396a-8ed0-49fb-8e02-88027216299d"
+	},
+	{
+		"title": "Skeleton",
+
+		"hp": 5,
+		"armor": 1,
+		"str": 8,
+		"dex": 13,
+		"wil": 0,
+		"attack": "rusty sword (d6) or bow (d6)",
+		"details": "Frequently found serving a master or necromancer, often in groups of 3 or more __________ Found wearing whatever was on them at the time of their death __________ If a skeleton is killed and its bones are not scattered, it reforms.",
+		"id": "f350835c-6e05-4b3c-92c0-2d2809290a05"
+	},
+	{
+		"title": "Sphinx",
+		"hp": 18,
+		"armor": 0,
+		"str": 12,
+		"dex": 13,
+		"wil": 18,
+		"attack": "",
+		"details": "Mythical beasts with the upper body and head of a human, the wings of an eagle, and the body of a lion __________ Immune to magic of any kind __________ Enjoy riddles, and will pose at least one to anyone they meet __________ Failure to answer correctly is usually met with death __________ They know almost everything worth knowing __________ Roar: Anyone in earshot must save WIL or flee in fear.",
+		"id": "82af0be5-f89c-478f-97e6-96de7a1dd104"
+	},
+	{
+		"title": "Storm Giant",
+
+		"hp": 18,
+		"armor": 2,
+		"str": 18,
+		"dex": 16,
+		"wil": 18,
+		"attack": "detachment",
+		"details": "Building-sized humanoids with bronze-hued skin and light-colored hair __________ Live on the highest mountain peaks and rockiest coastlines __________ Unharmed by lightning, can summon storm clouds at their will __________ Can fly with the wind as a their chariot __________ Thunderclap: Deals 4 STR damage against a single target __________ Targets wearing metal armor take double damage.",
+		"id": "63b5e85a-1b8e-4af1-8370-848158b7109d"
+	},
+	{
+		"title": "Tiger",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 14,
+		"wil": 6,
+		"attack": "claws (d8+d8)",
+		"details": "Striped, solitary felines found in temperate regions __________ Use camouflage and stealth to surprise their prey __________ Drag away their victims for later consumption __________ Critical Damage: Bites through flesh an bone alike (d6 STR damage).",
+		"id": "05221a84-62e0-4014-bb62-121f716609de"
+	},
+	{
+		"title": "Titan",
+
+		"hp": 18,
+		"armor": 3,
+		"str": 16,
+		"dex": 15,
+		"wil": 18,
+		"attack": "detachment",
+		"details": "Mythical, humanoid giants of radiant beauty and powerfully athletic bodies __________ Beneficent of character, but prone to megalomania __________ Natives of other planes of existence, but sometimes have strongholds in the mortal world __________ Can levitate, shapeshift, and sculpt elements at will.",
+		"id": "737258e9-1072-4da2-ab6a-62c1e8e156ce"
+	},
+	{
+		"title": "Treant",
+		"hp": 10,
+		"armor": 3,
+		"str": 15,
+		"dex": 3,
+		"wil": 12,
+		"attack": "blast)",
+		"details": "A sentient, bipedal tree with a vaguely humanoid face on its trunk __________ Found in the deepest part of the wood __________ Speaks slowly and ponderously, with a deep voice __________ Timeless, living for thousands of years.",
+		"id": "b30dceea-d12d-4c10-9c62-98d4b65e4495"
+	},
+	{
+		"title": "Triton",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 12,
+		"dex": 15,
+		"wil": 12,
+		"attack": "trident (d8)",
+		"details": "Aquatic humanoids with silvery skin, blue-green hair, and scaled legs ending in fins __________ Dwell in warmer waters close to land __________ Lair in beautiful castles sculpted from sea rock and coral __________ Command vast schools of fish for both protection and food.",
+		"id": "f22618a1-f07d-44bc-929d-8d9ae174c78d"
+	},
+	{
+		"title": "Tyrannosaurus",
+		"hp": 15,
+		"armor": 1,
+		"str": 18,
+		"dex": 12,
+		"wil": 8,
+		"attack": "detachment",
+		"details": "Massive, two-legged, predatory reptiles with huge jaws __________ Ferocious hunters, attacking the most threatening foe first.",
+		"id": "35299604-dcc1-49a5-b649-96a818b69d52"
+	},
+	{
+		"title": "Unicorn",
+
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"attack": "ignores armor)",
+		"details": "Magical horses with a single long horn on its forehead __________ Timid, but proud and wilful, are seen as divine beings __________ Its hairs are worth small fortunes due to their powerful healing properties.",
+		"id": "4f1ae9be-0dd1-4c77-a70e-063ffa93c21e"
+	},
+	{
+		"title": "Vampire",
+
+		"hp": 12,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 16,
+		"attack": "bite (d10)",
+		"details": "Charming, undead creatures that drink the blood of mortals __________ Act at night and sleep in a coffin during the day __________ Can change its form to the one of a bat __________ Regeneration: A damaged vampire regains 6 HP when it bites a target that has blood __________ If killed, it becomes a cloud of gas and retreats to its coffin, reforming at the next nightfall __________ Can only be killed if exposed to sunlight or if the coffin is destroyed __________ Critical Damage: The vampire drains the target’s essence, dealing d12 damage to WIL __________ If the target reaches 0 WIL this way, it dies and is raised as a thrall of the vampire",
+		"id": "8bbdf256-816a-4e81-bcd9-02ff21a86512"
+	},
+	{
+		"title": "Vampire Bat",
+		"hp": 3,
+		"armor": 0,
+		"str": 6,
+		"dex": 14,
+		"wil": 3,
+		"attack": "bite (d8)",
+		"details": "Large, nocturnal mammals that feed on live blood __________ Use echolocation to navigate __________ Fear loud noises __________ Critical Damage: Target is infected by disease and are deprived without specialist healing.",
+		"id": "31ec8282-cb49-409b-8e33-2e39ec48d5d4"
+	},
+	{
+		"title": "Viper",
+		"hp": 3,
+		"armor": 0,
+		"str": 5,
+		"dex": 12,
+		"wil": 3,
+		"attack": "bite (d6)",
+		"details": "Poisonous snakes often found in caves, pits, and other dark places __________ An antitoxin can be made from their poison sacs __________ Does not rely on vision, using heat and smell to track its victims __________ Critical Damage: Target is poisoned, dying in 1d12 hours without a cure.",
+		"id": "f61dd658-2316-491d-841c-68417c08025b"
+	},
+	{
+		"title": "Warp Panther",
+		"hp": 8,
+		"armor": 0,
+		"str": 13,
+		"dex": 16,
+		"wil": 12,
+		"attack": "bite (d10)",
+		"details": "Grotesque panther-like predators with long razored tentacles growing out of their backs __________ Resistant to magical attacks __________ Caster must make a WIL save for the intended effect to succeed __________ Can teleport a short distance away at will __________ Hate Blink Dogs.",
+		"id": "b7af7ca0-b469-47f7-88d0-acbc3b9d2a9c"
+	},
+	{
+		"title": "Water Elemental",
+		"hp": 14,
+		"armor": 0,
+		"str": 15,
+		"dex": 16,
+		"wil": 4,
+		"attack": "spray (d8)",
+		"details": "Rare spirits of lakes, rivers, and seas __________ Mundane attacks against the Water Elemental are impaired __________ Critical Damage: Target is enveloped by the water and drowns in three rounds.",
+		"id": "b967a2eb-7199-4124-8269-bf0ee8997f95"
+	},
+	{
+		"title": "Werewolf",
+
+		"hp": 8,
+		"armor": 0,
+		"str": 15,
+		"dex": 14,
+		"wil": 6,
+		"attack": "claws (d6+d6) or bite (d8)",
+		"details": "A ferocious lycanthrope that can transform into a wolf-shape at will __________ Mundane attacks are impaired against the werewolf, but weapons made of silver are enhanced __________ Critical Damage: Target becomes infected with lycanthropy, transforming into a werewolf by the next full moon.",
+		"id": "f2f0ad90-a419-44cc-b579-a1e6980d2813"
+	},
+	{
+		"title": "White Ape",
+		"hp": 6,
+		"armor": 0,
+		"str": 14,
+		"dex": 15,
+		"wil": 12,
+		"attack": "blast)",
+		"details": "Nocturnal gorillas covered in snow-white hair __________ Defend their territory with threatening gestures followed by sudden violence.",
+		"id": "32f41405-4b3c-46cb-840b-efd282d4148d"
+	},
+	{
+		"title": "White Dragon",
+
+		"hp": 16,
+		"armor": 1,
+		"str": 16,
+		"dex": 16,
+		"wil": 12,
+		"attack": "detachment",
+		"details": "A massive winged creature of frost that lairs comfortably in only the coldest regions __________ Perpetually accompanied by a storm of ice and wind, the White Dragon is a manifestation of winter itself __________ Frost Breath: Nearby targets must make a DEX save or are frozen solid, their breath turned to icicles in their lungs.",
+		"id": "276b660f-3a63-49ff-af58-2c5a698db306"
+	},
+	{
+		"title": "Wight",
+
+		"hp": 12,
+		"armor": 3,
+		"str": 16,
+		"dex": 8,
+		"wil": 12,
+		"attack": "longsword (d10)",
+		"details": "Grotesque, fallen warriors, raised from death for ill purpose __________ Often bestrode an equally nightmarish steeds, leading lesser undead creatures into battle __________ Critical Damage: On a fail, any STR loss is permanent.",
+		"id": "cea89a91-703c-4418-a77f-53d841280590"
+	},
+	{
+		"title": "Wolf",
+		"hp": 6,
+		"armor": 0,
+		"str": 12,
+		"dex": 14,
+		"wil": 8,
+		"attack": "bite (d8)",
+		"details": "Large canines that dwell primarily in forest or tundra __________ Can be trained with effort if captured at a young age.",
+		"id": "e4c7015c-99e9-4057-a598-091af2a668a0"
+	},
+	{
+		"title": "Troll",
+		"hp": 14,
+		"armor": 1,
+		"str": 14,
+		"dex": 12,
+		"wil": 4,
+		"attack": "club (d10)",
+		"details": "Giant, warty humanoids of flesh and bark __________ Dwell underground or in deep forests, as well as the ruined homes of their former victims __________ Carnivorous __________ When taking Critical Damage a Troll will continue fighting, despite loss of flesh and limb __________ Only when their STR is 0 are they truly killed __________ Unless their heads are bathed in acid, fire, or powerful magic they will fully regenerate within 1d4 days.",
+		"id": "29abbd93-b745-4ed0-91d5-e21af739c269"
+	},
+	{
+		"title": "Wood Troll",
+		"hp": 10,
+		"armor": 0,
+		"str": 15,
+		"dex": 12,
+		"wil": 7,
+		"attack": "blast)",
+		"details": "Large humanoids with elongated arms made of bark or root __________ They live in forests, sharing a deep connection with the vegetation around them., If killed they will slowly regenerate unless their corpse is taken out of the forest, or burned with fire __________ Critical Damage: Moss and twigs begin growing out of target’s wounds.",
+		"id": "012e53ca-1d92-4d62-8d10-51af96ab6521"
+	},
+	{
+		"title": "Wyvern",
+
+		"hp": 11,
+		"armor": 0,
+		"str": 15,
+		"dex": 14,
+		"wil": 13,
+		"attack": "stinger (d10)",
+		"details": "Large, intelligent, winged reptiles __________ Dwell in any terrain, but favor dry cliffs __________ Shy away from other creatures, preferring to silently stalk their targets from afar __________ Critical Damage: The victim is impaled and held in place __________ The wyvern then bites their head off.",
+		"id": "f0f201af-61bc-46d4-a89a-4114e7e2c108"
+	},
+	{
+		"title": "Zombie",
+
+		"hp": 2,
+		"armor": 0,
+		"str": 12,
+		"dex": 6,
+		"wil": 3,
+		"attack": "jagged nails (d6)",
+		"details": "Re-animated corpse brought back through necromantic ritual or fell influence __________ Immune to all mind-influencing effects __________ If not utterly destroyed (fire, complete dismemberment, etc.), the Zombie will rise again within a few minutes __________ Critical Damage: Target is infected and becomes deprived __________ Without the services of a specialist or healer, they will become a zombie in 1d4 days.",
+		"id": "0b3f35c6-8fa5-4f00-9eab-333a7088463b"
+	}
+]

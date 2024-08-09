@@ -60,7 +60,7 @@
 					</li>
 				{/each}
 			</ul>
-			<div class="mt-4 variant-filled-surface">
+			<!-- <div class="mt-4 variant-filled-surface">
 				<Accordion>
 					<AccordionItem>
 						<svelte:fragment slot="lead"><Mountain /></svelte:fragment>
@@ -78,9 +78,8 @@
 						</svelte:fragment>
 					</AccordionItem>
 
-					<!-- ... -->
 				</Accordion>
-			</div>
+			</div> -->
 		</footer>
 	</div>
 </div>

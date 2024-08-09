@@ -7,14 +7,14 @@
 </script>
 
 <TabGroup>
-	<Tab bind:group={tabSet} name="tab1" value={0}>Random</Tab>
-	<Tab bind:group={tabSet} name="tab3" value={1}>Search</Tab>
+	<Tab bind:group={tabSet} name="tab1" value={0}>Search</Tab>
+	<Tab bind:group={tabSet} name="tab3" value={1}>Encounter Table</Tab>
 	<!-- Tab Panels --->
 	<svelte:fragment slot="panel">
 		{#if tabSet === 0}
-			<MonsterRandom />
-		{:else if tabSet === 1}
 			<MonsterSearch />
+		{:else if tabSet === 1}
+			<MonsterRandom />
 		{/if}
 	</svelte:fragment>
 </TabGroup>
