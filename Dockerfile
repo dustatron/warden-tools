@@ -3,15 +3,13 @@ FROM node:18.18.0-alpine AS builder
 WORKDIR /app
 
 COPY package*.json .
-COPY pnpm-lock.yaml .
+COPY package-lock.json .
 
-RUN npm i -g pnpm
-RUN pnpm install
+RUN npm install
 
 COPY . .
 
-RUN pnpm run build
-RUN pnpm prune --prod
+RUN npm run build
 
 FROM node:18.8.0-alpine AS deployer
 
